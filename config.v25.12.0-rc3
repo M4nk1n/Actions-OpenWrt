@@ -1,5 +1,3 @@
-# Base config from: https://downloads.openwrt.org/releases/25.12.0-rc3/targets/x86/64/config.buildinfo
-
 CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_MULTI_PROFILE=y
@@ -71,16 +69,14 @@ CONFIG_VERSION_NUMBER=""
 CONFIG_VERSION_PRODUCT=""
 CONFIG_VERSION_REPO="https://downloads.openwrt.org/releases/25.12.0-rc3"
 CONFIG_VERSION_SUPPORT_URL=""
-
 #
-# Customy
-# CONFIG_PACKAGE_=y
+# Base config from: https://downloads.openwrt.org/releases/25.12.0-rc3/targets/x86/64/config.buildinfo
 #
-
+# Custom
+#
 # Image Options
 CONFIG_TARGET_ROOTFS_PARTSIZE=512
 CONFIG_LUCI_LANG_zh_Hans=y
-
 # argon
 CONFIG_PACKAGE_luci-app-argon-config=y
 # openclash
